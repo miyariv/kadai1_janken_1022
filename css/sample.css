@@ -1,0 +1,107 @@
+/* 初期設定 */
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+}
+
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+main{
+    border-bottom:1px solid #ccc;
+}
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+/* p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+} */
+
+.text-center{
+    text-align: center;
+}
+
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+
+/* li{
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #FFF;
+    display:table-cell;
+    cursor: pointer;
+} */
+
+/* li:hover{
+    background: #0066CC;
+    color:#fff;
+} */
+
+/* kirikabu */
+.kabutos{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #deb887;
+}
+
+/* hand_section */
+
+.hand-wrapper{
+    width: 90%;
+    margin: auto;
+}
+
+.display_hands{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hand_img{
+    width: 150px;
+    height: auto;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.hand_img:hover{
+    width: 160px;
+}
+
+
+.hand-list{
+    list-style-type:none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.hand-list_text{
+    margin: 30px auto 20px;
+}
+
+/* judgement-section */
+.judgement-wrapper{
+    margin: 20px auto;
+}
+
+
+
+
+
+
+
+
